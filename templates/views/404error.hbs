@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+    {{!-- {{>navbar}} --}}
+    <!-- main_header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- main_header_left -->
+                    <div class="col-md-6 col-12 main_header_left align-items-center error_page">
+                        <figure class="about_img">
+                            <img src="images/404error.webp" alt="ayush.png" class="img-fliud" title="Ayush">
+                        </figure>
+                        <p>Welcome to my error page</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Return Back</button></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    {{>footer}}
+</body>
+</html>
